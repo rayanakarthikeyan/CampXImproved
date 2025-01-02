@@ -1,0 +1,14 @@
+{
+  "name": "campx-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  }
+}
