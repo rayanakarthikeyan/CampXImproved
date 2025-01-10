@@ -13,17 +13,18 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="record_attendance.html">Record Attendance</a></li>
-                <li><a href="check_schedule.html">Check Schedule</a></li>
-                <li><a href="create_poll.html">Create Poll/Quiz</a></li>
+                <!-- Other navigation links -->
             </ul>
         </nav>
     </header>
     <main>
         <div class="module">
             <h2>Monitor Classroom</h2>
-            <p>Alerts for distractions or off-task behavior.</p>
-            <button class="button">Start Monitoring</button>
+            <form id="monitorForm">
+                <label for="classroom">Classroom:</label><br>
+                <input type="text" id="classroom" name="classroom" placeholder="e.g., Room 101" required><br>
+                <button class="button" type="submit">Start Monitoring</button>
+            </form>
         </div>
     </main>
 </body>
