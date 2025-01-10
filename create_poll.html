@@ -13,17 +13,25 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="record_attendance.html">Record Attendance</a></li>
-                <li><a href="monitor_classroom.html">Monitor Classroom</a></li>
-                <li><a href="check_schedule.html">Check Schedule</a></li>
+                <!-- Other navigation links -->
             </ul>
         </nav>
     </header>
     <main>
         <div class="module">
             <h2>Create Poll/Quiz</h2>
-            <p>Interactive features like polls and quizzes to enhance classroom participation.</p>
-            <button class="button">Create New Poll/Quiz</button>
+            <form id="pollForm">
+                <label for="question">Question:</label><br>
+                <input type="text" id="question" name="question" required><br>
+                <label for="options">Options (comma separated):</label><br>
+                <input type="text" id="options" name="options" placeholder="Option1, Option2, Option3" required><br>
+                <label for="type">Type:</label><br>
+                <select id="type" name="type">
+                    <option value="poll">Poll</option>
+                    <option value="quiz">Quiz</option>
+                </select><br><br>
+                <button class="button" type="submit">Create</button>
+            </form>
         </div>
     </main>
 </body>
