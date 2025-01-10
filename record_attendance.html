@@ -13,17 +13,23 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="monitor_classroom.html">Monitor Classroom</a></li>
-                <li><a href="check_schedule.html">Check Schedule</a></li>
-                <li><a href="create_poll.html">Create Poll/Quiz</a></li>
+                <!-- Other navigation links -->
             </ul>
         </nav>
     </header>
     <main>
         <div class="module">
             <h2>Record Attendance</h2>
-            <p>Use facial recognition or QR codes for real-time attendance.</p>
-            <button class="button">Record Attendance</button>
+            <form id="attendanceForm">
+                <label for="studentId">Student ID:</label><br>
+                <input type="text" id="studentId" name="studentId" required><br>
+                <label for="method">Method:</label><br>
+                <select id="method" name="method">
+                    <option value="facial">Facial Recognition</option>
+                    <option value="qr">QR Code</option>
+                </select><br><br>
+                <button class="button" type="submit">Record Attendance</button>
+            </form>
         </div>
     </main>
 </body>
