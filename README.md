@@ -1,56 +1,37 @@
 # CampXImproved
-CampXImproved
 
-CampXImproved is a web application designed to enhance classroom engagement and management in educational settings. This project introduces features that facilitate monitoring, scheduling, polling, and attendance recording, among others, to improve the overall experience for students and instructors.
+**CampXImproved** is a web application designed to enhance classroom engagement and management in educational settings. This project introduces features that facilitate monitoring, scheduling, polling, and attendance recording, among others, to improve the overall experience for students and instructors.
 
-Features
+## Features
 
-Schedule Management: Easily check and create schedules.
+- **Schedule Management:** Easily check and create schedules.
+- **Poll Creation:** Conduct quick and engaging polls for decision-making or feedback.
+- **Classroom Monitoring:** Monitor classroom behavior and engagement effectively.
+- **Attendance Recording:** Keep track of student attendance efficiently.
+- **Timetable Generation:** Generate and display timetables for organized scheduling.
+- **Custom Styles:** A modern design implemented through `styles.css`.
 
-Poll Creation: Conduct quick and engaging polls for decision-making or feedback.
-
-Classroom Monitoring: Monitor classroom behavior and engagement effectively.
-
-Attendance Recording: Keep track of student attendance efficiently.
-
-Timetable Generation: Generate and display timetables for organized scheduling.
-
-Custom Styles: A modern design implemented through styles.css.
-
-
-Project Structure
+## Project Structure
 
 The following files are included in this repository:
 
-index.html - Home page of the application.
+- `index.html` - Home page of the application.
+- `behavior.html` - Page for monitoring classroom behavior.
+- `check_schedule.html` - Page to view existing schedules.
+- `create_poll.html` - Page for creating new polls.
+- `engagement.html` - Page to track and boost student engagement.
+- `monitor_classroom.html` - Tool for classroom monitoring.
+- `record_attendance.html` - Page for managing and recording attendance.
+- `timetable.html` - Tool for timetable creation and management.
+- `styles.css` - Stylesheet for the application's design and layout.
+- `README.md` - Documentation for the project.
+- `Logo-Final-scaled.jpg` - Logo for branding.
 
-behavior.html - Page for monitoring classroom behavior.
-
-check_schedule.html - Page to view existing schedules.
-
-create_poll.html - Page for creating new polls.
-
-engagement.html - Page to track and boost student engagement.
-
-monitor_classroom.html - Tool for classroom monitoring.
-
-record_attendance.html - Page for managing and recording attendance.
-
-timetable.html - Tool for timetable creation and management.
-
-styles.css - Stylesheet for the application's design and layout.
-
-README.md - Documentation for the project.
-
-Logo-Final-scaled.jpg - Logo for branding.
-
-
-Installation
+## Installation
 
 1. Clone the repository:
-
-git clone https://github.com/rayanakarthikeyan/CampXImproved.git
-
+   ```bash
+   git clone https://github.com/rayanakarthikeyan/CampXImproved.git
 
 2. Navigate to the project directory:
 
